@@ -1,0 +1,49 @@
+.About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 80%;
+  padding: 2rem;
+}
+
+.name {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.div-foto {
+  display: inline;
+}
+
+.foto-perfil {
+  width: 70%;
+  border-radius: 30px;
+  border: 1px solid blue;
+}
+
+.descripciones {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffff;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.skills {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}
+
+.skill {
+  background-color: #020024;
+  color: #ffff;
+  margin: 0.3rem;
+  padding: 0.8rem;
+  border-radius: 6px;
+}
